@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  background: #1e1e1e;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #00bcd4;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+
+nav a.active {
+  background: #00bcd4;
+  color: #121212;
+}
+
+
+nav a:hover {
+  background: #00bcd4;
+  color: #121212;
+}
+
+.section {
+  padding: 60px 0;
+  border-bottom: 1px solid #333;
+}
+
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00bcd4;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #1e1e1e;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #aaa;
+  border-top: 1px solid #333;
+}
+
+a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
